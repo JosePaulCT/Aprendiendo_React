@@ -1,3 +1,4 @@
+import {useState} from 'react';
 import PropTypes from 'prop-types';
 import './App.css'
 
@@ -14,7 +15,7 @@ export function Follow_Card_X({children, userCode, avatar, follow}) {
             </header>
             <aside >
             <button className={btn_Follow}>
-                <span className='initial'>Seguir</span>
+                <span className='initial'>{follow ? 'Siguiendo' : 'Seguir'} </span>
                 <span className='hover'>✖ Dejar de seguir</span>
             </button>
             </aside>

@@ -19,6 +19,8 @@
 .ad-X-follow-card-btnFollow:hover {
     background-color: black ;
     color: red;
+    font-weight: 600;
+    font-size: .7rem;
 }
 
 .ad-X-follow-card-btnFollow:hover .initial {
@@ -32,7 +34,6 @@
 .ad-X-follow-card .hover{
     display: none;
 }
-
 
 .ad-X-follow-card img {
     max-width: 45px;
